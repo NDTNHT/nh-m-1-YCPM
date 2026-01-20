@@ -15,4 +15,9 @@ Feature: Khóa thẻ
     Then hệ thống từ chối yêu cầu
     And hiển thị thông báo thẻ đã bị khóa 
 
-   
+   Scenario: Không xác thực được chủ sở hữu 
+   Given Khách đã có thẻ ATM
+   Then Xác minh không đúng chủ sỡ hữu - CCCD
+   When gửi yêu cầu khóa thẻ 
+   Then hệ thống từ chối yêu cầu Khóa thẻ
+   And Hệ thống thông báo lỗi “Không phải thẻ của mình”
