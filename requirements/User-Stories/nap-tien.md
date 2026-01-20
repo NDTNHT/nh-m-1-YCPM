@@ -6,8 +6,8 @@ Tôi muốn nộp tiền mặt vào tài khoản
 Để tăng số dư tài khoản ngân hàng
 
 ## Business Rules
-- Khách hành phải cung cấp thẻ và pin hợp lệ
-- khách hành phải cuung cấp tiền tệ hợp lệ
+- Khách hành phải cung cấp thẻ và mã số PIN hợp lệ
+- khách hành phải cung cấp tiền tệ hợp lệ
 - Tiền thật, không rách nát, không tiền giả
 - Số Tiền nạp lớn hơn 0
 
