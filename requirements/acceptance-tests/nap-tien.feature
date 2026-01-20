@@ -26,8 +26,7 @@ Scenario: tiền đã nạp nhưng số dư không tăng
     Then ATM nhận tiền nộp vào và đếm tiền
     And Xác nhận số tiền cần nộp và nộp tiền tài khoản
     Then Số dư tài khoản không được tăng lên tương ứng
-    And giao dịch được ghi nhận không thành công
     Then hoàn lại số tiền đã nạp
-
+    And giao dịch được ghi nhận không thành công
 
 
