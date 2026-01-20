@@ -12,7 +12,9 @@ Business Rules
 
 
 Khách hành phải cung cấp thẻ và pin hợp lệ
+
 khách hành phải cuung cấp tiền tệ hợp lệ
+
 khách hàng phải dùng tiền thật
 
 Acceptance Tests
