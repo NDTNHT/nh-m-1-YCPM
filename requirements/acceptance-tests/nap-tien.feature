@@ -1,5 +1,4 @@
-feature
-người dùng nạp tiền vào tải khoản
+Feature: người dùng nạp tiền vào tải khoản
   
  Scenario: Nạp tiền thành công
     Given khách hàng đã đưa thẻ ATM hợp lệ vào máy
