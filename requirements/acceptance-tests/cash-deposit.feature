@@ -1,8 +1,7 @@
-USER STORY
-Là người dùng của ngân hàng
-Tôi muốn nộp tiền mặt vào tài khoản
-Để tăng số dư tài khoản ngân hàng
-HAPPY PATH
+feature
+người dùng nạp tiền vào tải khoản
+  
+  Scenario: Successful deposit
 Given
 Có tài khoản ngân hàng
 Đăng nhập thành công ở ATM
