@@ -8,3 +8,11 @@ Feature: Khóa thẻ
    And Hệ thống ghi nhận lại kết quả 
    Then Thẻ của khách đã được khóa
 
+   Scenario: Khóa thẻ đã bị khóa
+    Given khách hàng đã đăng nhập hợp lệ
+    And thẻ ngân hàng đang ở trạng thái đã khóa
+    When khách hàng chọn chức năng khóa thẻ
+    Then hệ thống từ chối yêu cầu
+    And hiển thị thông báo thẻ đã bị khóa 
+
+   
