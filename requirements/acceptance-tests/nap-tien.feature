@@ -8,4 +8,4 @@ Feature: người dùng nạp tiền vào tải khoản
     Then ATM nhận tiền nộp vào và đếm tiền
     And Xác nhận số tiền cần nộp và nộp tiền tài khoản
     Then Số dư tài khoản được tăng lên tương ứng
-    And giao dịch được ghi nhận thành công
+    Then giao dịch được ghi nhận thành công
