@@ -1,8 +1,5 @@
-USER STORY:
-Là người dùng của ngân hàng
-Tôi muốn thực hiện khóa thẻ
-Để cho người lạ ko sử dụng thẻ của tôi
-HAPPY PATH
+Feature: khóa thẻ 
+ senario: khóa thẻ thành công
 Given
 Khách đã có thẻ ATM
 Xác minh đúng chủ sở hữu - CCCD
